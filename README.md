@@ -1,4 +1,4 @@
-# Lenovo Control GUI
+# IG3 Control Kit: Lenovo laptop power GUI for Linux
 
 A simple GUI tool using **Zenity** to manage Lenovo laptop settings, including:
 * **System Performance Modes** (Intelligent Cooling, Extreme Performance, Battery Saving)
@@ -26,8 +26,8 @@ sudo pacman -S acpi_call zenity
 ### 2. Clone the Repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/Lenovo-Control-GUI.git
-cd Lenovo-Control-GUI
+git clone https://github.com/shakshat27/IG3-controlkit.git
+cd IG3-controlkit
 chmod +x power-manager.sh
 ```
 
@@ -44,6 +44,7 @@ sudo ./power-manager.sh
 To integrate it into your system's application menu:
 
 ```
+sudo cp power-manager.sh /usr/local/bin/
 cp power-manager.desktop ~/.local/share/applications/
 ```
 

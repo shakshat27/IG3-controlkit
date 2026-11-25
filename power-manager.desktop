@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Lenovo Power Manager
+Comment=Performance mode, rapid charge and battery conservation
+Exec=pkexec /usr/local/bin/power-manager.sh
+Icon=battery
+Terminal=false
+Categories=Utility;Settings;
